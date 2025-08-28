@@ -1,0 +1,446 @@
+/* ---- @CSSimports ----*/
+@charset "UTF-8";
+@media (max-width: 768px) {}
+
+@font-face {
+  font-family: 'bucklane';
+  src: url(fonts/BucklaneScript_PERSONAL_USE_ONLY.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ---- CSS CODE ---- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #f1f5f9;
+  line-height: 1.6;
+  height: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  /* Adicione esta linha */
+}
+
+header {
+  background-color: #0f172a;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  color: #38bdf8;
+  transition: 0.3s;
+  font-family: 'bucklane';
+  font-size: xx-large;
+  font-size: 50px;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+header h1:hover {
+  color: #38bdf8;
+  transition: 40ms;
+  background-color: #334155;
+  border-radius: 10px;
+}
+
+header nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+header nav ul li {
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: 0.3s;
+  font-size: large;
+}
+
+header nav ul li:hover {
+  background: #334155;
+
+}
+
+header nav ul a {
+  text-decoration: none;
+  color: #f1f5f9;
+  font-weight: bold;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header a#duartdev:hover {
+  transition: 40ms;
+  text-decoration: none#38bdf8;
+}
+
+.sobre-buttons {
+  display: block;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
+.sobremim {
+  width: 900px;
+  max-width: 100vw;
+  /* Limita a largura máxima */
+  margin-top: 20px;
+  margin-left: 40px;
+  transition: 260ms;
+}
+
+.sobremim:hover {
+  cursor: default;
+}
+
+.sobremim p {
+  font-size: xx-large;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sobremim h2 {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.redes {
+  display: block;
+  position: absolute;
+  left: 415px;
+}
+
+.redes img {
+  width: 50px;
+  transition: 130ms;
+}
+
+.redes img:hover {
+  transform: translateY(-5px);
+  transition: 130ms;
+}
+
+.skills {
+  background-color: 0f172a;
+  display: block;
+  position: relative;
+  left: 60%;
+  bottom: 10px;
+  padding: 11px;
+  margin: 12px;
+  border-radius: 10px;
+  width: 600px;
+  max-width: 100vw;
+  /* Limita a largura máxima */
+  transition: 260ms;
+}
+
+.skills:hover {
+  background: rgb(28, 42, 57);
+  transition: 260ms;
+  cursor: context-menu;
+}
+
+.skills li {
+  list-style-type: none;
+  font-size: x-large;
+}
+
+.skills h2 {
+  font-size: xx-large;
+  font-weight: lighter;
+  text-decoration: none;
+  color: white;
+  transition: 110ms;
+  border-radius: 6px;
+  padding: 3px;
+  text-align: center;
+}
+
+.skills a {
+  text-decoration: none;
+  color: white;
+}
+
+.skills img {
+  width: 90px;
+  position: relative;
+  left: 45px;
+}
+
+.skills img:hover {
+  color: rgba(255, 0, 0, 0.294);
+  cursor: pointer;
+}
+
+.skills h2 {
+  font-size: xx-large;
+}
+
+.skills p {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.gif-working {
+  position: relative;
+  left: 250px;
+  bottom: 330px;
+}
+
+.gif-working img {
+  width: 550px;
+  max-width: 100vw;
+  /* Limita a largura máxima */
+}
+
+.projects-section {
+  padding: 50px 10%;
+  position: relative;
+  bottom: 200px;
+}
+
+.projects-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: initial;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #141b2d;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.project-desc {
+  font-size: 0.95rem;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+.project-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.btn {
+  display: block;
+  width: fit-content;
+  margin: 30px auto 0 auto;
+  padding: 12px 25px;
+  background: #6a11cb;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+footer {
+  background-color: rgb(31, 36, 48);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  position: relative;
+  z-index: 100;
+}
+
+footer p {
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  header {
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 15px;
+}
+*{
+  margin-left: 6px;
+}
+header h1 {
+  font-size: 2rem;
+  padding: 2px;
+
+}
+
+.sobre-buttons {
+  position: relative;
+  margin-top: 10px;
+  right: auto;
+  top: auto;
+}
+
+header nav ul {
+  gap: 10px;
+  flex-direction: column;
+}
+
+.sobremim {
+  width: 95vw;
+  margin-left: 0;
+  font-size: 1rem;
+}
+
+.sobremim p,
+.sobremim h2 {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.redes {
+  position: static;
+  margin: 10px 0;
+  left: auto;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.skills {
+    width: 95vw;
+    left: 0;
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+.skills img {
+  width: 60px;
+  left: 0;
+}
+
+.gif-working {
+  left: 0;
+  bottom: 0;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.gif-working img {
+  width: 90vw;
+  max-width: 350px;
+}
+
+.projects-section {
+  padding: 20px 2vw;
+  bottom: 0;
+}
+
+.projects-grid {
+  grid-template-columns: 1fr;
+  gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+  font-size: 1.2rem;
+}
+
+  * {
+  margin-left: 6px;
+}
+
+.sobremim {
+  width: 100vw;
+  margin-left: 0;
+  font-size: 0.9rem;
+}
+
+.sobremim h2 {
+  text-align: center;
+}
+
+.sobremim p {
+  margin-left: 6px;
+}
+.redes img{
+  position: relative;
+  left: 90px;
+}
+.skills {
+  width: 100vw;
+  padding: 5px;
+}
+
+.skills img {
+  width: 40px;
+}
+.redes{
+  position: relative;
+  left: 30px;
+}
+
+.gif-working img {
+  width: 95vw;
+  max-width: 200px;
+  }
+
+.projects-section h2 {
+  font-size: 1.2rem;
+}
+
+footer {
+  height: 30px;
+  font-size: 0.8rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+}
+
+.spotlight {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background: radial-gradient(circle 150px at center,
+  rgb(0, 62, 177),
+ transparent 70%);
+}
