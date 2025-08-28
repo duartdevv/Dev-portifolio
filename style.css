@@ -376,10 +376,6 @@ header nav ul {
 footer{
   background-color: #0f172a;
 }
-.spotlight{
-  color: #0f172a;
-  background-color: #0f172a;
-}
 
 }
 
@@ -453,3 +449,4 @@ spotlight {
   rgb(0, 62, 177),
  transparent 70%);
 }
+
