@@ -309,6 +309,14 @@ footer p {
   .spotlight{
   display:none;
 }
+.talkwme{
+    display: flex;
+  justify-content: center;
+  gap: 10px; 
+  margin: 20px 0;
+  position: relative;
+  left: 0;
+}
 }
 
 @media (max-width: 768px) {
@@ -370,13 +378,20 @@ header nav ul {
   text-align: center;
 }
 .talkwme{
+  display: flex;
+  justify-content: center;
+  gap: 10px; 
+  margin: 20px 0;
   position: relative;
-  left: 270px;
+  left: 0;
 }
 .redes {
+  display: flex;
+  justify-content: center;
+  gap: 10px; 
+  margin: 20px 0;
   position: relative;
-  margin: 10px 0;
-  left: 230px;
+  left: 0;
 }
 .redes img{
   position: relative;
@@ -465,15 +480,22 @@ footer{
 .skills img {
   width: 40px;
 }
-.redes{
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 10px; 
+  margin: 20px 0;
   position: relative;
-  margin: 0;
-  padding: 0;
   left: 0;
 }
+
 .talkwme{
+  display: flex;
+  justify-content: center;
+  gap: 10px; 
+  margin: 20px 0;
   position: relative;
-  left: 150px;
+  left: 0;
 }
 
 .gif-working img {
@@ -526,12 +548,20 @@ footer {
   padding: 6px 10px;
 }
 .talkwme{
+  display: flex;
+  justify-content: center;
+  gap: 10px; 
+  margin: 20px 0;
   position: relative;
-  left: 140px
+  left: 0;
 }
-.redes{
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 10px; 
+  margin: 20px 0;
   position: relative;
-  left: 95px;
+  left: 0;
 }
 .redes img{
   position: relative;
