@@ -117,13 +117,22 @@ header a#duartdev:hover {
   text-align: center;
   font-size: xx-large;
 }
-
-.redes {
-  display: block;
-  position: absolute;
-  left: 515px;
+.talkwme{
+  position: relative;
+  left: 485px;
+  text-decoration: underline;
 }
-
+.redes {
+  display: flex;
+  position: relative;
+  left: 450px;
+  gap: 10px;
+  align-items: center;
+  margin: 20px 0;
+}
+.redes a{
+  display: inline-;
+}
 .redes img {
   width: 50px;
   transition: 130ms;
@@ -291,6 +300,11 @@ footer p {
   width: 100%;
   margin: 0;
 }
+@media (max-width: 360px){
+    .redes img{
+    position: absolute;
+  }
+}
 
 @media (max-width: 768px) {
   header {
@@ -300,18 +314,32 @@ footer p {
 }
 *{
   margin-left: 6px;
+
 }
 header h1 {
   font-size: 2rem;
   padding: 2px;
 
 }
-
-.sobre-buttons {
+.sobre-buttons{
   position: relative;
-  margin-top: 10px;
-  right: auto;
-  top: auto;
+  top: 3px;
+  left: 4px;
+}
+.sobre-buttons ul {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+}
+.sobre-buttons ul a {
+  display: flex;
+}
+.sobre-buttons ul li {
+  display: inline-block;
+  font-size: 1rem;
+  padding: 6px 10px;
 }
 
 header nav ul {
@@ -324,22 +352,37 @@ header nav ul {
   margin-left: 0;
   font-size: 1rem;
 }
-
+.icons-work{
+  display: grid;
+}
 .sobremim p,
 .sobremim h2 {
   font-size: 1.2rem;
   text-align: left;
+  text-align: center;
 }
-
+.talkwme{
+  position: relative;
+  left: 270px;
+}
 .redes {
   position: static;
   margin: 10px 0;
-  left: auto;
+  left: 120px;
   display: flex;
   gap: 10px;
   justify-content: flex-start;
 }
-
+.redes img{
+  position: relative;
+  left: 215px;
+}
+.icons-work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  }
 .skills {
   width: 95vw;
   left: 0;
@@ -387,7 +430,10 @@ footer{
   * {
   margin-left: 6px;
 }
-
+.sobre-buttons{
+  display: grid;
+  gap: 20px;
+}
 .sobremim {
   width: 100vw;
   margin-left: 0;
@@ -415,7 +461,13 @@ footer{
 }
 .redes{
   position: relative;
-  left: 30px;
+  margin: 0;
+  padding: 0;
+  left: 0;
+}
+.talkwme{
+  position: relative;
+  left: 150px;
 }
 
 .gif-working img {
@@ -440,6 +492,39 @@ footer {
   background-color: #0f172a;
 }
 }
+
+@media (max-width: 486px) {
+.sobre-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;           
+  justify-content: center;
+  align-items: center;
+}
+  
+.sobre-buttons ul {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+}
+.sobre-buttons ul a {
+  display: flex;
+}
+.sobre-buttons ul li {
+  display: inline-block;
+  font-size: 1rem;
+  padding: 6px 10px;
+}
+.redes img{
+  position: relative;
+  left: 130px;
+  bottom: 0;
+}
+
+}
+
 spotlight {
   position: fixed;
   inset: 0;
@@ -449,4 +534,3 @@ spotlight {
   rgb(0, 62, 177),
  transparent 70%);
 }
-
