@@ -17,6 +17,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   max-width: 100%;
   overflow-x: hidden;
+
 }
 
 body {
@@ -137,6 +138,7 @@ header a#duartdev:hover {
   display: inline-;
 }
 .redes img {
+  padding-top: 10px;
   width: 50px;
   transition: 130ms;
 }
