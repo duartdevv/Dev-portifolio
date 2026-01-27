@@ -240,7 +240,7 @@ header a#duartdev:hover {
 }
 
 .project-card {
-  background-color: #141b2d;
+  background-color: #242d4691;
   border-radius: 10px;
   padding: 20px;
   transition: transform 0.2s ease;
@@ -261,6 +261,7 @@ header a#duartdev:hover {
 .project-desc {
   font-size: 0.95rem;
   color: #ccc;
+  font-weight: lighter;
   margin-bottom: 15px;
 }
 
