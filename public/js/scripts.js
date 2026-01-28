@@ -9,7 +9,7 @@ document.addEventListener("mousemove", (e) => {
     )`;
 });
 
-const text = "< / Duarte Dev >";
+const text = "< / Antony Duarte >";
 const h1 = document.querySelector("header h1");
 h1.innerText = "";
 let i = 0;
@@ -30,3 +30,4 @@ document.querySelectorAll("a[href^='#']").forEach(anchor => {
       .scrollIntoView({ behavior: "smooth" });
   });
 });
+
