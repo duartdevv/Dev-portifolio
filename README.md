@@ -1,4 +1,4 @@
-# Portifólio - DuartDev
+# Portifólio - AntonyDuarte
 
 Um portifólio simples, com o intúito de apresentar minhas habilidades com HTML5, CSS3 e JavaScript.
 
@@ -10,7 +10,7 @@ Um portifólio simples, com o intúito de apresentar minhas habilidades com HTML
 
 ## Acesse aqui:
 
-- https://duartdevv.github.io/Dev-portifolio/
+- https://antonyduarte.github.io/Dev-portifolio/
 
 ## Tecnologias Utilizadas
 
@@ -42,7 +42,7 @@ npm install
 ## Como Usar
 
 ```
-git clone https://github.com/duartdevv/Dev-portifolio.git
+git clone https://github.com/antonyduarte/Dev-portifolio.git
 cd Dev-portifolio
 ```
 
@@ -65,4 +65,4 @@ Para mais informações ou oportunidades de colaboração, entre em contato comi
 
 ## Template
 
-O Portifólio DEV está liberado para usar como template para o seu repositorio, basta fazer o download dos arquivos e modificalo como quiser.
+O Portifólio DEV está liberado para usar como template para o seu repositorio, basta fazer o download dos arquivos e modificá-lo como quiser.
